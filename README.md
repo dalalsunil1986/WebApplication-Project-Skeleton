@@ -1,3 +1,5 @@
+[![Build Status](https://api.shippable.com/projects/5561a055edd7f2c052f9f34f/badge?branchName=master)](https://app.shippable.com/projects/5561a055edd7f2c052f9f34f/builds/latest)
+
 # Standard Web Application Project Skeleton
 ### Develop web application with Spring Web MVC, Spring Security, JPA/Hibernate + MySQL, Thymeleaf, Bootstrap, Gradle
 
