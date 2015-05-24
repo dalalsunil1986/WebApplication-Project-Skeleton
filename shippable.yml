@@ -1,6 +1,10 @@
 language: java
 jdk:
   - oraclejdk7
+install:
+  - ./gradlew clean assemble
+script:
+  - ./gradlew check
 notifications:
   email:
     recipients:
