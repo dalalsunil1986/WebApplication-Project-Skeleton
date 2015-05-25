@@ -71,4 +71,4 @@ your browser to see it running. Cool...right? ;)
 3. Make sure, you installed jrebel at `/usr/local/JRebel` directory
 4. Run **gradle deployWar** in your source code which will copy the war file to tomcat's webapps folder
 5. From tomcat7/bin, start tomcat server by `./catalina-jrebel.sh run`
-6. Access application by browsing: [http://localhost:8080/webapp/](http://localhost:8080/webapp/)
+6. Access application by browsing: [http://localhost:8080/webapp/](http://localhost:8080/WebApplication-Project-Skeleton-1.0-SNAPSHOT/)
