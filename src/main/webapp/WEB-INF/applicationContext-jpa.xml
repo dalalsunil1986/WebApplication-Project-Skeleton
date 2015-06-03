@@ -32,8 +32,9 @@
         <property name="user" value="${jdbc.user}"/>
         <property name="password" value="${jdbc.pass}"/>
         <property name="acquireIncrement" value="${jdbc.acquireIncrement}"/>
-        <property name="maxPoolSize" value="${jdbc.maxPoolSize}"/>
+        <property name="initialPoolSize" value="${jdbc.initialPoolSize}"/>
         <property name="minPoolSize" value="${jdbc.minPoolSize}"/>
+        <property name="maxPoolSize" value="${jdbc.maxPoolSize}"/>
         <property name="maxStatements" value="${jdbc.maxStatements}"/>
         <property name="idleConnectionTestPeriod" value="${jdbc.idleConnectionTestPeriod}"/>
         <property name="acquireRetryAttempts" value="${jdbc.acquireRetryAttempts}"/>

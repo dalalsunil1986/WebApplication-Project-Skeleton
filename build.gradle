@@ -27,7 +27,7 @@ apply plugin: 'propdeps-idea'
 apply plugin: 'propdeps-eclipse'
 apply plugin: 'rebel'
 
-def tomcatHome = '/usr/local/tomcat7'
+def tomcatHome = '/usr/local/tomcat'
 def appVersion = '1.0-SNAPSHOT'
 
 def appArchiveName = rootProject.name + '-' + appVersion
@@ -54,7 +54,7 @@ cobertura {
 
 rebel {
     alwaysGenerate = true
-    showGenerated = true
+    showGenerated = false
 }
 
 war {
@@ -70,7 +70,7 @@ ext {
     springVersion = "4.1.6.RELEASE"
     springSecurityVersion = "4.0.1.RELEASE"
     thymeleafVersion = "2.1.4.RELEASE"
-    tomcatVersion = "8.0.22"
+    tomcatVersion = "8.0.23"
 }
 
 dependencies {
@@ -95,8 +95,8 @@ dependencies {
 
     compile "joda-time:joda-time:2.8"
 
-    compile "org.slf4j:slf4j-api:1.7.12"
-    runtime "org.slf4j:slf4j-log4j12:1.7.12"
+    compile 'ch.qos.logback:logback-classic:1.1.3'
+    runtime 'javax.mail:mail:1.4.7'
 
     testCompile "org.springframework:spring-test:$springVersion"
     testCompile "junit:junit:4.12"
